@@ -1,0 +1,18 @@
+[user]
+	name = Jason Blanchard
+	email = jas.blanchard@gmail.com
+[credential]
+	helper = osxkeychain
+[push]
+	default = simple
+[heroku]
+  account = personal
+
+[alias]
+  glog = log --graph
+  dlog = log -p
+  # `git update-index --assume-unchanged <file>` to ignore the file
+  # `git update-index --no-assume-unchanged <file>` to re-add the file
+  marked-unchanged = !git ls-files -v | grep ^[a-z]
+[core]
+	excludesfile = /Users/jason/.gitignore_global
