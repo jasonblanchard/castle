@@ -32,3 +32,4 @@ set undodir=~/.vim/undofiles
 set undofile
 set modeline
 set ls=2
+set splitright

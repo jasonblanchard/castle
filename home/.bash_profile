@@ -13,3 +13,5 @@ export PATH=${PATH}:/Development/android-sdk-macosx/sdk/platform-tools:/Developm
 export DOCKER_HOST=tcp://localhost:4243
 
 set -o vi
+
+alias lock="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"

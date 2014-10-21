@@ -1,7 +1,7 @@
 require 'rubygems'
 
 if defined? Mongoid
-    Mongoid.logger = Logger.new($stdout)
+  Mongoid.logger = Logger.new($stdout)
 end
 
 require 'interactive_editor'
@@ -24,7 +24,7 @@ begin
   # load and initialize wirble
   require 'wirble'
   Wirble.init
-  
+
   #
   # Uncomment the line below to enable Wirble colors.
   # 
