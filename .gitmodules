@@ -31,3 +31,6 @@
 [submodule "home/.vim/bundle/handlebars"]
 	path = home/.vim/bundle/handlebars
 	url = git://github.com/nono/vim-handlebars.git
+[submodule "home/.vim/bundle/vim-vinegar"]
+	path = home/.vim/bundle/vim-vinegar
+	url = https://github.com/tpope/vim-vinegar
