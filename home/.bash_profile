@@ -10,7 +10,11 @@ export PS1="[\u:\W] $ "
 
 export PATH=${PATH}:/Development/android-sdk-macosx/sdk/platform-tools:/Development/android-sdk-macosx/sdk/tools
 
-export DOCKER_HOST=tcp://localhost:4243
+if [[ $(boot2docker status) == *running* ]]; then
+  $(boot2docker shellinit)
+else
+  export DOCKER_HOST=tcp://localhost:4243
+fi
 
 set -o vi
 
