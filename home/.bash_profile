@@ -25,8 +25,9 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
 fi
 
 if [ -e ~/export_aws_credentials.sh ]; then
-  `./export_aws_credentials.sh`
+  `~/export_aws_credentials.sh`
 fi
 
 export GOPATH=$HOME/gows
 export PATH=$PATH:$GOPATH/bin
+source ~/.bashrc
